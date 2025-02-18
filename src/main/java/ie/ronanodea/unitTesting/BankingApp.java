@@ -27,9 +27,14 @@ package ie.ronanodea.unitTesting;
  * @see BankingApp
  */
 
-
+  /**
+   * Constructor for BankingApp
+   */
 public class BankingApp {
 
+	/**
+	* Banking Apps main method
+	*/
 	public static void main(String[] args) {
 	    // Create a new banking application instance
 	    AccountManager manageAcc = new AccountManager();
