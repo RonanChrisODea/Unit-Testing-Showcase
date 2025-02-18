@@ -19,7 +19,7 @@ The project follows the standard Gradle directory structure:
 unitTestingShowcase/
 ├── src/
 │   ├── main/
-│   │   └── java/  <-- Your main application code
+│   │   └── java/ 
 │   │       └── ie/
 │   │           └── ronanodea/
 │   │               └── unitTesting/
@@ -27,14 +27,14 @@ unitTestingShowcase/
 │   │                   ├── AccountManager.java
 │   │                   └── BankingApp.java
 │   └── test/
-│       └── java/  <-- Your test code
+│       └── java/  
 │           └── ie/
 │               └── ronanodea/
 │               └── unitTesting/
 │                   ├── AccountManagerTest.java
 │                   ├── AccountTest.java
 │                   └── BankingAppTest.java
-├── build.gradle.kts  <-- Your Gradle build script (Kotlin DSL)
+├── build.gradle.kts 
 ├── gradlew
 ├── gradlew.bat
 └── gradle/
