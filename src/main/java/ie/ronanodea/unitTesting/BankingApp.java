@@ -1,4 +1,4 @@
-package main.java.ie.ronanodea.unitTesting;
+package ie.ronanodea.unitTesting;
 
 /**
  * This program simulates a simple banking application that manages user accounts.
