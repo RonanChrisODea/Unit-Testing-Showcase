@@ -1,4 +1,4 @@
-package test.java.ie.ronanodea.unitTesting;
+package ie.ronanodea.unitTesting;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
