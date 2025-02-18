@@ -15,6 +15,7 @@ This project uses [Gradle](https://gradle.org/) with the **Gradle Wrapper**. Thi
 
 The project follows the standard Gradle directory structure:
 
+```
 unitTestingShowcase/
 ├── src/
 │   ├── main/
@@ -29,18 +30,18 @@ unitTestingShowcase/
 │       └── java/  <-- Your test code
 │           └── ie/
 │               └── ronanodea/
-│                   └── unitTesting/
-│                       ├── AccountManagerTest.java
-│                       ├── AccountTest.java
-│                       └── BankingAppTest.java
+│               └── unitTesting/
+│                   ├── AccountManagerTest.java
+│                   ├── AccountTest.java
+│                   └── BankingAppTest.java
 ├── build.gradle.kts  <-- Your Gradle build script (Kotlin DSL)
 ├── gradlew
 ├── gradlew.bat
 └── gradle/
-    └── wrapper/
-        ├── gradle-wrapper.jar
-        └── gradle-wrapper.properties
-
+└── wrapper/
+├── gradle-wrapper.jar
+└── gradle-wrapper.properties
+```
 
 ## Prerequisites
 
@@ -115,4 +116,3 @@ To remove all generated files (compiled classes, test reports, etc.), run:
     ```bash
     ./gradlew clean
     ```
-```
