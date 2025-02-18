@@ -80,13 +80,16 @@ This project uses the **Gradle Wrapper**. You *do not* need to install Gradle se
 
     This will compile the code, run all the unit tests, and generate a test report.
 
-3.  **View the Test Report:**  After the tests run, open the HTML test report in your browser, the simplest method       is to use the local file explorer and open the file in your default browsers at the following directories:
+3.  **View the Test Report:**
+
+After the tests run, open the HTML test report in your browser, the simplest method is to use the local file explorer and open the file in your default browsers at the following directories:
 
     *   **Windows:**  `build\reports\tests\test\index.html`
     *    **Linux/macOS**: `build/reports/tests/test/index.html`
 
-4.  **Generating and Viewing Javadoc Documentation**
-Generate Javadoc:  Use the Gradle javadoc task:
+5.  **Generating and Viewing Javadoc Documentation:**
+
+Generate Javadoc using the Gradle javadoc task:
 
    *    **Windows:** 
 
@@ -97,7 +100,9 @@ Generate Javadoc:  Use the Gradle javadoc task:
         ```Bash
          ./gradlew javadoc
         ```
-5. ** View Documentation:** After compiling the documentation navigate to and open the following in your browser:
+6. ** View Documentation:**
+
+After compiling the documentation navigate to and open the following in your browser:
 
   *   **Windows:** `.\build\docs\javadoc\index.html`
   *   **Linux/macOS**: `build/docs/javadoc/index.html`
