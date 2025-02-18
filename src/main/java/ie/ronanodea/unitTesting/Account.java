@@ -13,12 +13,8 @@ package ie.ronanodea.unitTesting;
  * for certain fields. 
  * 
  * @see Account
- * @see AccountTest
  * @see AccountManager
- * @see AccountManagerTest
  * @see BankingApp
- * @see BankingAppTest
- * @see BankingAppTestRunner 
  */
 
 
