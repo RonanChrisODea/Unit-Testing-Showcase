@@ -31,10 +31,10 @@ Unit-Testing-Showcase/
 │       └── java/  
 │           └── ie/
 │               └── ronanodea/
-│               └── unitTesting/
-│                   ├── AccountManagerTest.java
-│                   ├── AccountTest.java
-│                   └── BankingAppTest.java
+│                  └── unitTesting/
+│                      ├── AccountManagerTest.java
+│                      ├── AccountTest.java
+│                      └── BankingAppTest.java
 ├── build.gradle.kts 
 ├── gradlew
 ├── gradlew.bat
