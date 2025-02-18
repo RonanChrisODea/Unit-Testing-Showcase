@@ -92,7 +92,7 @@ public class Account {
          * 
          * @param amount Withdrawal amount
          * @return Returns a boolean, allows manager class to perform withdrawal
-         * @throws IllegalArgumentException if amount is <= 0
+         * @throws IllegalArgumentException if amount is 0 or less
          */
         public boolean withdraw(double amount) throws IllegalArgumentException {
             if (amount <= 0) {
