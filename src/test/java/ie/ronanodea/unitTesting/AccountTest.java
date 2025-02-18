@@ -26,13 +26,6 @@ import org.junit.jupiter.api.BeforeAll;
  * Parameterised testing is also employed where appropriate, such as in the method to test
  * edge cases for deposits.
  * 
- * @see Account
- * @see AccountTest
- * @see AccountManager
- * @see AccountManagerTest
- * @see BankingApp
- * @see BankingAppTest
- * @see BankingAppTestRunner 
  */
 
 
