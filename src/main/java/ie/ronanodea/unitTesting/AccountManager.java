@@ -1,4 +1,4 @@
-package main.java.ie.ronanodea.unitTesting;
+package ie.ronanodea.unitTesting;
 
 import java.util.ArrayList;
 import java.util.List;
