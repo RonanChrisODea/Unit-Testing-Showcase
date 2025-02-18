@@ -83,7 +83,7 @@ This project uses the **Gradle Wrapper**. You *do not* need to install Gradle se
 
 3.  **View the Test Report:** After the tests run, open the HTML test report in your browser, found at the following directories:
 
-    *   **Windows:**  `build\reports\tests\test\index.html`
+    *   **Windows:**  `.\build\reports\tests\test\index.html`
     *   **Linux/macOS:** `build/reports/tests/test/index.html`
 
 ## Generating and Viewing Javadoc Documentation
