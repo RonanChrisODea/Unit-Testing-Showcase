@@ -1,4 +1,5 @@
-# unitTestingShowcase
+# Unit-Testing-Showcase
+
 
 This repository demonstrates unit testing for a simple Banking Application written in Java, tested using JUnit 5 and built using Gradle.
 
@@ -16,7 +17,7 @@ This project uses [Gradle](https://gradle.org/) with the **Gradle Wrapper**. Thi
 The project follows the standard Gradle directory structure:
 
 ```
-unitTestingShowcase/
+Unit-Testing-Showcase/
 ├── src/
 │   ├── main/
 │   │   └── java/ 
@@ -54,7 +55,7 @@ To get a copy of this project on your local machine, open a terminal (or Git Bas
 
 ```bash
 git clone https://github.com/RonanChrisODea/Unit-Testing-Showcase.git
-cd unitTestingShowcase
+cd Unit-Testing-Showcase
 ```
 
 ## Building and Running Tests
