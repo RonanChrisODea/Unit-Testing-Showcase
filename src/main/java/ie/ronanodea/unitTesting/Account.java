@@ -1,4 +1,4 @@
-package main.java.ie.ronanodea.unitTesting;
+package ie.ronanodea.unitTesting;
 
 /**
  * Represents a single bank account with an account holder name, balance, and loan amount.
