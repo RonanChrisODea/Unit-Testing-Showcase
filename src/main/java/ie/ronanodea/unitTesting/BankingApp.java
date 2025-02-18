@@ -5,10 +5,10 @@ package ie.ronanodea.unitTesting;
  * <p>
  * It provides functionalities to:
  * <ul>
- *   <li>Add new accounts with an initial deposit.</li>
- *   <li>Deposit and withdraw money from accounts.</li>
- *   <li>Approve and repay loans for account holders.</li>
- *   <li>Track the total deposits available in the bank.</li>
+ *  <li>Add new accounts with an initial deposit.</li>
+ *  <li>Deposit and withdraw money from accounts.</li>
+ *  <li>Approve and repay loans for account holders.</li>
+ *  <li>Track the total deposits available in the bank.</li>
  * </ul>
  * <p>
  * The application uses a list of {@link Account} objects to manage account data.
@@ -24,48 +24,47 @@ package ie.ronanodea.unitTesting;
  *
  * @see Account
  * @see AccountManager
- * @see BankingApp
  */
-
-  /**
-   * Constructor for BankingApp
-   */
 public class BankingApp {
 
-	/**
-	* Banking Apps main method
-	*/
-	public static void main(String[] args) {
-	    // Create a new banking application instance
-	    AccountManager manageAcc = new AccountManager();
+    /**
+     * Constructor for BankingApp.
+     */
+    public BankingApp() {
+        // No initialization needed.
+    }
 
-	    // Add accounts
-	    manageAcc.addAccount("Alice", 1000);
-	    manageAcc.addAccount("Bob", 500);
+    /**
+     * Banking Apps main method
+     * @param args none provided
+     */
+    public static void main(String[] args) {
+        // Create a new banking application instance
+        AccountManager manageAcc = new AccountManager();
 
-	    // Test deposits
-	    System.out.println("Depositing 200 to Alice: " + manageAcc.deposit("Alice", 200)); // Should return true
-	    System.out.println("Alice's balance: " + manageAcc.getBalance("Alice")); // Should be 1200
+        // Add accounts
+        manageAcc.addAccount("Alice", 1000);
+        manageAcc.addAccount("Bob", 500);
 
-	    // Test withdrawals
-	    System.out.println("Withdrawing 300 from Bob: " + manageAcc.withdraw("Bob", 300)); // Should return true
-	    System.out.println("Bob's balance: " + manageAcc.getBalance("Bob")); // Should be 200
+        // Test deposits
+        System.out.println("Depositing 200 to Alice: " + manageAcc.deposit("Alice", 200)); // Should return true
+        System.out.println("Alice's balance: " + manageAcc.getBalance("Alice")); // Should be 1200
 
-	    // Test loan approval
-	    System.out.println("Approving a loan of 400 for Alice: " + manageAcc.approveLoan("Alice", 400)); // Should return true
-	    System.out.println("Alice's loan: " + manageAcc.getLoan("Alice")); // Should be 400
+        // Test withdrawals
+        System.out.println("Withdrawing 300 from Bob: " + manageAcc.withdraw("Bob", 300)); // Should return true
+        System.out.println("Bob's balance: " + manageAcc.getBalance("Bob")); // Should be 200
 
-	    // Test loan repayment
-	    System.out.println("Repaying 200 of Alice's loan: " + manageAcc.repayLoan("Alice", 200)); // Should return true
-	    System.out.println("Alice's remaining loan: " + manageAcc.getLoan("Alice")); // Should be 200
-	    
-	    System.out.println("Total account balances: " + (manageAcc.getBalance("Alice") + manageAcc.getBalance("Bob")));
-	    
-	    // Check total deposits in the manageAcc instance
-	    System.out.println("Total deposits in the bank: " + manageAcc.getTotalDeposits());
-	    
-	    
-	}
-	
+        // Test loan approval
+        System.out.println("Approving a loan of 400 for Alice: " + manageAcc.approveLoan("Alice", 400)); // Should return true
+        System.out.println("Alice's loan: " + manageAcc.getLoan("Alice")); // Should be 400
+
+        // Test loan repayment
+        System.out.println("Repaying 200 of Alice's loan: " + manageAcc.repayLoan("Alice", 200)); // Should return true
+        System.out.println("Alice's remaining loan: " + manageAcc.getLoan("Alice")); // Should be 200
+
+        System.out.println("Total account balances: " + (manageAcc.getBalance("Alice") + manageAcc.getBalance("Bob")));
+
+        // Check total deposits in the manageAcc instance
+        System.out.println("Total deposits in the bank: " + manageAcc.getTotalDeposits());
+    }
 }
-
