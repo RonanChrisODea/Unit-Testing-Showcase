@@ -23,12 +23,8 @@ package ie.ronanodea.unitTesting;
  * readability and maintainability: BankingApp, Account and AccountManager.
  *
  * @see Account
- * @see AccountTest
  * @see AccountManager
- * @see AccountManagerTest
  * @see BankingApp
- * @see BankingAppTest
- * @see BankingAppTestRunner 
  */
 
 
