@@ -108,7 +108,7 @@ After compiling the documentation navigate to and open the following in your bro
   *   **Linux/macOS**: `build/docs/javadoc/index.html`
 
    
-### Using an IDE (IntelliJ IDEA, Eclipse, etc.)
+## Using an IDE (IntelliJ IDEA, Eclipse, etc.)
 
 1.  **Import the Project:**
     *   **IntelliJ IDEA:**  Choose "Open" and select the `build.gradle.kts` file or the project's root directory. IntelliJ IDEA will automatically detect the Gradle project.
@@ -120,7 +120,7 @@ After compiling the documentation navigate to and open the following in your bro
     *   **Eclipse:**  Right-click on the project, go to "Run As" -> "Gradle Test". You can also configure run configurations for specific tests.
     *   **Other IDEs:**  Use the IDE's built-in test runner, usually accessible by right-clicking on test files or directories.
 
-### Cleaning the Build
+## Cleaning the Build
 
 To remove all generated files (compiled classes, test reports, etc.), run:
 
