@@ -2,7 +2,7 @@ package ie.ronanodea.unitTesting;
 
 import org.junit.jupiter.api.Test;
 
-import main.java.ie.ronanodea.unitTesting.BankingApp;
+import ie.ronanodea.unitTesting.BankingApp;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 
