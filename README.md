@@ -80,11 +80,29 @@ This project uses the **Gradle Wrapper**. You *do not* need to install Gradle se
 
     This will compile the code, run all the unit tests, and generate a test report.
 
-3.  **View the Test Report:**  After the tests run, open the HTML test report in your browser:
+3.  **View the Test Report:**  After the tests run, open the HTML test report in your browser, the simplest method       is to use the local file explorer and open the file in your default browsers at the following directories:
 
-    *   **Windows:**  Open `build\reports\tests\test\index.html`
-    *    **Linux/macOS**: Open `build/reports/tests/test/index.html`
+    *   **Windows:**  `build\reports\tests\test\index.html`
+    *    **Linux/macOS**: `build/reports/tests/test/index.html`
 
+4.  **Generating and Viewing Javadoc Documentation**
+Generate Javadoc:  Use the Gradle javadoc task:
+
+   *    **Windows:** 
+
+         ```Bash
+         .\gradlew.bat javadoc
+         ```
+   *    **Linux/macOS:**
+        ```Bash
+         ./gradlew javadoc
+        ```
+5. ** View Documentation:** After compiling the documentation navigate to and open the following in your browser:
+
+  *   **Windows:** `.\build\docs\javadoc\index.html`
+  *   **Linux/macOS**: `build/docs/javadoc/index.html`
+
+   
 ### Using an IDE (IntelliJ IDEA, Eclipse, etc.)
 
 1.  **Import the Project:**
@@ -96,10 +114,6 @@ This project uses the **Gradle Wrapper**. You *do not* need to install Gradle se
     *   **IntelliJ IDEA:** Right-click on the `src/test` directory in the Project tool window and choose "Run 'All Tests'".  You can also right-click on individual test classes or methods and run them.
     *   **Eclipse:**  Right-click on the project, go to "Run As" -> "Gradle Test". You can also configure run configurations for specific tests.
     *   **Other IDEs:**  Use the IDE's built-in test runner, usually accessible by right-clicking on test files or directories.
-
-3. **(Optional) Configure Gradle to always use the wrapper inside your IDE**
-    * **IntelliJ IDEA**: Go to *File > Settings > Build, Execution, Deployment > Build Tools > Gradle*. Under "Use Gradle from", choose "gradle-wrapper.properties file".
-    * **Eclipse**: Go to *Window > Preferences > Gradle*. Check the box that says *Override workspace settings*. Then, under *Gradle distribution*, select *Wrapper*.
 
 ### Cleaning the Build
 
