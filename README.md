@@ -100,7 +100,7 @@ Generate Javadoc using the Gradle javadoc task:
         ```Bash
          ./gradlew javadoc
         ```
-6. ** View Documentation:**
+6.  **View Documentation:**
 
 After compiling the documentation navigate to and open the following in your browser:
 
