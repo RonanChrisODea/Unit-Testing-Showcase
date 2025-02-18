@@ -15,12 +15,8 @@ import java.util.List;
  * implemented using {@link IllegalArgumentException} to ensure valid input values. 
  *  
  * @see Account
- * @see AccountTest
  * @see AccountManager
- * @see AccountManagerTest
  * @see BankingApp
- * @see BankingAppTest
- * @see BankingAppTestRunner 
  */
 
 
