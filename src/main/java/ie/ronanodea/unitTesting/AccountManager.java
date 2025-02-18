@@ -27,7 +27,9 @@ public class AccountManager {
     private List<Account> accounts;
     private double totalDeposits; // Tracks total deposits in the bank
 
-    // Constructor to initialize the banking application
+    /** 
+     * Constructor to initialize the banking application
+     */
     public AccountManager() {
         this.accounts = new ArrayList<>();
         this.totalDeposits = 0;
@@ -50,8 +52,7 @@ public class AccountManager {
     /**
      * Adds a new account with an initial deposit.
      * @param accountHolder The name of the new account holder.
-     * @param initialDeposit The initial deposit amount.
-     * Initial Deposit must be positive:
+     * @param initDeposit The initial deposit amount.
      * @throws IllegalArgumentException if amount is negative
      */
     public void addAccount(String accountHolder, double initDeposit) throws IllegalArgumentException {
